@@ -55,7 +55,7 @@ html{
     border-radius: 13px;
 }
 
-#navbar ul a:hover{
+#navbar ul li a:hover{
     background-color: burlywood;
 }
 
@@ -72,8 +72,8 @@ html{
     content: "";
     position: absolute;
     background: url('img/bg.jpg') no-repeat center center/cover;
-    height: 200%;
-    width: 200%;
+    height: 100%;
+    width: 100%;
     z-index: -1;
     opacity: 0.5;
 }
@@ -101,8 +101,7 @@ html{
 
 /* service section */
 #service-heading{
-    /* border: 2px solid red; */
-    margin-top: -10px;
+    margin-top: -28rem;
     text-align: center;
 }
 #service-container{
