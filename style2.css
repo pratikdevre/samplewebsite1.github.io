@@ -7,6 +7,7 @@ html{
 }
 body{
     font-family: 'Staatliches', cursive;
+    background-color: rgba(91, 95, 94, 0.438);
 }
 
 /* navigation section */
@@ -156,15 +157,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-#contact::before{
+/* #contact::before{
     background: url('img/bg2.jpg') no-repeat center center/cover;
     content: "";
     position: absolute;
-    height: 67%;
+    height: 72%;
     width: 100%;
     z-index: -1;
     opacity: 1.0;
-}
+} */
 #contact input{
     margin: 9px;
     padding: 7px;
@@ -274,6 +275,7 @@ footer{
         width: 50px;
         margin: 20px;
     }
+
 }
 @media screen and (max-width: 630px){
     #navbar ul li a{
@@ -382,7 +384,6 @@ footer{
     }
     #service img{
         height: 100px;
-        
     }
     .heading1{
         font-size: 25px;
@@ -426,6 +427,14 @@ footer{
     }
     /* contact */
     #contact input{
-        width: 220px;
+        margin: 4px;
+        padding: 5px;
+        width: 170px;
+    }
+    /* contact */
+    #contact input{
+        margin: 4px;
+        padding: 5px;
+        width: 170px;
     }
 }
